@@ -1,6 +1,6 @@
 class Dinosaur < ApplicationRecord
   def self.order_by_name
-    order(:name :asc #:desc)
+    order(:name)
   end
 
   # scope :order_by_name, -> { order(:name) }
