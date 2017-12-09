@@ -10,3 +10,5 @@ class CreateDinosaurs < ActiveRecord::Migration[5.1]
     end
   end
 end
+
+# migration file has the change method to update the database
